@@ -2,4 +2,14 @@ Question 1:
 Cleaning and exploration data in order to bring out features of the dataset.
 
 Question 2:
-a:  With raw and informal text there will be punctuation, spelling, and grammatical errors.
+a:
+ - With raw and informal text there will be punctuation, spelling, and grammatical errors.
+ - There will be null input for the ratings.
+
+b:  I would do it based on a 5 star ratings system with comments.  These surveys would be taken from a random group of customers.
+
+Try to identify some potentially useful features that you might derive from the raw data.
+How would you derive them and how would you assess the usefulness of those features?
+c:  You could see the quality of each product and if it is worth keeping to sell.  You would do this by pulling the reviews for
+each product.  You can also see if similar products are rating the same and get rid of similar products that are underperforming to
+customers expectations.
