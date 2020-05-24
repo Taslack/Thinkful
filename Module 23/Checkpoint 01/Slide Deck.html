@@ -13078,7 +13078,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Gun-Violence-2013-thru-March-2018">Gun Violence 2013 thru March 2018<a class="anchor-link" href="#Gun-Violence-2013-thru-March-2018">&#182;</a></h1><p>Gun violence seems to be on the rise.  It is a rare month that goes buy that you do not hear about some form of gun violence.  There is surprisingly not a central location of this data that has such an effect on communities across the United States.</p>
-<p>This notebook will chronicle exploring one of the datasets that is publicly available.  It will look at how many deaths are in the United States of America and if there are any areas that demonstrate higher occurance of gun violence taking place.  Looking at the date the occurrences happen we will also evaluate if there is a season or day of the week for gun violence to happen.</p>
+<p>This notebook will chronicle exploring one of the datasets that is publicly available.  It will look at how many gun violence incidents that are in the United States of America and if there are any areas that demonstrate higher occurance of gun violence taking place.  Looking at the date the occurrences happen we will also evaluate if there is a season or day of the week for gun violence to happen.</p>
 <p>The data we are looking at is from kaggle at <a href="https://www.kaggle.com/jameslko/gun-violence-data">https://www.kaggle.com/jameslko/gun-violence-data</a>.  It is pulled from <a href="http://gunviolencearchive.org">http://gunviolencearchive.org</a>, a group that pulls this data from about 7500 sources.  It is just one of several organizations that is looking to have a centeralized location for near real time data.</p>
 
 </div>
@@ -18028,6 +18028,36 @@ Name: total, dtype: float64</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>There is now less variance in the data since there will now be no rural shooting included.  Cities will have a higher percentage of shoots over 5 people.  Rural gun violence have more incidents where 0 people were injured or killed.  This helps to increase the accuracy in the the predictive models by decreasing the outliers of the features.  The best model to fit the data set is k-nearest neighbor, as most of the data is located in the low number of people involved and is grouped together very similarly.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Results">Results<a class="anchor-link" href="#Results">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I set out to look at the difference in gun violence and see if there was any indication of gun violence occuring more often in different areas of the United States.  What I was able to find was that there are areas of the United States that are adversly effected by gun violence and have a much higher occurance then other areas.  There is also indication that certain days of the weeks have a higher occurance of gun violence then other days.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Uses">Uses<a class="anchor-link" href="#Uses">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This model would be good to see what the top 10 cities are going to have the most gun violence.  It allows us to see that discrepancies of gun violence by city in the United States, then take those top cities and model them.</p>
 
 </div>
 </div>
